@@ -93,7 +93,7 @@ function App() {
         </div>
         <br/>
         <textarea
-          rows="20"
+          rows="15"
           cols="75"
           value={code}
           onChange={(e) => {
@@ -126,9 +126,6 @@ function App() {
         </div>
       </div>
     </div>
-    <div className="footer">
-        <p>&copy; 2023 @Maddy. All rights reserved.</p>
-      </div>
     </div>
   );
 }

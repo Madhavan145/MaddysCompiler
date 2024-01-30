@@ -1,11 +1,21 @@
 body {
-  margin: 0;
+  margin: 0%;
+  top: 0%;
+  color:rgb(40, 20, 3) !important;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff !important;
+  /* Add background image properties */
+  /* background-image: url("./matrix.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  backdrop-filter:  blur(6px) brightness(100%); */
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

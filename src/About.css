@@ -1,0 +1,87 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    max-width: 100%;
+  }
+  
+  .Madhavan-h2 {
+    font-size: 32px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+  }
+  
+  .about-container {
+    max-width: 100%;
+    margin: auto;
+    padding: 30px;
+    font-size: 20px;
+  }
+  
+  .about-content {
+    margin-bottom: 20px;
+  }
+  
+  .image-carousel {
+    margin-bottom: 40px;
+  }
+  
+  .technologies {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .technologies h2 {
+    font-size: 32px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+  }
+  
+  .technologies ul {
+    display:grid;
+    font-weight: bold;
+    justify-content: space-around;
+    margin-top: 20px;
+    max-width:60%;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .technologies li {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  .image-carousel {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    max-width:60%;
+    margin: 0 auto; /* Center the element horizontally */
+  }
+  
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 16px;
+    right: 0;
+    margin-top: 20px;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight:lighter;
+}
+
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .about-container {
+      padding: 20px;
+    }
+  }
+  
